@@ -82,11 +82,13 @@
             ],
             "styles": [
               "src/styles.scss"
-            ],
-            "browsers": "Edge"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

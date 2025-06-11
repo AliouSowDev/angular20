@@ -1,2 +1,5 @@
-<h1>Hello, {{ title }}</h1>
+@if(appActive) {
+    <h1>Welcome to, {{ title }}</h1>
+    <button id="goHomeBtn" (click)="goHome()">Go to Home</button>
+}
 <router-outlet />
